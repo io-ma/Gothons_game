@@ -1,0 +1,159 @@
+/* line 6 */
+body {
+  font: 150% Helvetica, sans-serif;
+  color: white;
+  background-color: #5D2045;
+}
+
+/* line 12 */
+a, a:active, a:visited, a:hover {
+  color: white;
+}
+
+/* line 16 */
+a:active, a:hover {
+  color: white;
+}
+
+/* line 20 */
+main {
+  width: 85%;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #702753;
+  background-image: url("images/gothon.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: auto;
+  box-sizing: border-box;
+}
+/* line 34 */
+main article {
+  display: flex;
+  margin: 20px auto;
+  width: 60%;
+  background-color: #702753;
+  padding: 10px;
+  border: 2px solid #702753;
+  border-radius: 5px;
+}
+/* line 44 */
+main h1 {
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+/* line 51 */
+main #register {
+  margin: 0 auto;
+  display: inline-block;
+  float: right;
+}
+/* line 57 */
+main form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+/* line 62 */
+main form input {
+  box-sizing: border-box;
+  width: 350px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 2px solid #5D2045;
+  border-radius: 4px;
+  color: white;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+/* line 74 */
+main form input[type=text] {
+  background-color: #5D2045;
+  border-bottom: 2px solid #c45297;
+  border-bottom-radius: 0;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+/* line 81 */
+main form input[type=submit] {
+  background-color: #96346f;
+  border: 2px solid #a93a7d;
+  border-bottom: 2px solid #bc418b;
+  border-right: 2px solid #bc418b;
+  border-radius: 4px;
+  font-size: 120%;
+  margin: auto;
+  align-items: center;
+}
+/* line 92 */
+main form input[type=text]:focus {
+  background-color: #96346f;
+  border: 2px solid #c45297;
+  border-radius: 4px;
+  border-bottom-radius: 0;
+  width: 500px;
+}
+/* line 100 */
+main form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px #96346f inset;
+  -webkit-text-fill-color: white;
+  box-shadow: 0 0 0 50px #96346f inset;
+  text-fill-color: white;
+}
+/* line 108 */
+main form input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px #96346f inset;
+  -webkit-text-fill-color: white;
+  box-shadow: 0 0 0 50px #96346f inset;
+  text-fill-color: white;
+}
+/* line 116 */
+main form #username, main form #password, main form #password2 {
+  background-color: #5D2045;
+  border-bottom: 2px solid #c45297;
+  border-bottom-radius: 0;
+}
+/* line 122 */
+main form #username:focus, main form #password:focus, main form #password2:focus {
+  background-color: #96346f;
+  border: 2px solid #c45297;
+  border-radius: 4px;
+  border-bottom-radius: 0;
+}
+/* line 129 */
+main form input[type=checkbox] {
+  display: inline-block;
+}
+/* line 133 */
+main form ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+  opacity: 0.6;
+}
+/* line 137 */
+main form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+  opacity: 0.6;
+}
+/* line 141 */
+main form :-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+  opacity: 0.6;
+}
+/* line 145 */
+main form :-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+  opacity: 0.6;
+}
+/* line 151 */
+main *:focus {
+  outline: none;
+}

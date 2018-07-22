@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Sign In</h1>
+    <p id="register">New User? <a href="{{ url_for('signup') }}">Register</a></p>
+
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        {{ form.username.label }}
+        {{ form.username(size=32) }}
+        {{ form.password.label }}
+        {{ form.password(size=32) }}
+        {{ form.remember_me() }} {{ form.remember_me.label }}
+        {{ form.submit() }}
+    </form>
+{% endblock %}
